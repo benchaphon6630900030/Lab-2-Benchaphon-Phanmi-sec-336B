@@ -1,0 +1,37 @@
+Array = [['namber id','name','count','status'],[ ],[ ],[ ],[ ],[ ]]
+Arraylist = list(Array)
+print(Arraylist)
+
+Array_lenght = len(Array)
+print("\n","lenght for Array = ",Array_lenght)
+
+Arraylist.append([ ])
+Arraylist[1].append(["Rubber", 0 ,"out for stock"])
+Arraylist[2].append(["Ruler", 5 ,"in for stock"])
+Arraylist[3].append(["Pencil", 1 ,"in for stock"])
+Arraylist[4].append(["Pen", 10 ,"in for stock"])
+Arraylist[5].append(["Color", 5 ,"in for stock"])
+Arraylist[6].append(["A4 Paper", 0 ,"out for stock"])
+print(Arraylist[1])
+print(Arraylist[2])
+print(Arraylist[3])
+print(Arraylist[4])
+print(Arraylist[5])
+print(Arraylist[6])
+
+print("\n","in stock:" +str(Arraylist[2])+str(Arraylist[3])+str(Arraylist[4])+str(Arraylist[5]))
+print("\n","out stock:" +str(Arraylist[1])+str(Arraylist[6]))
+
+for i in range(0,len(Arraylist)):
+    if Arraylist[i][1] == "Ruler":
+      Arraylist [i][2] = Arraylist [i][2] - 1
+    if Arraylist[i][1] == "Pencil":
+      Arraylist [i][2] = Arraylist [i][2] - 1
+    if Arraylist[i][1] == "Pen":
+      Arraylist [i][2] = Arraylist [i][2] - 2
+    if Arraylist[i][1] == "Color Pencil":
+      Arraylist [i][2] = Arraylist [i][2] - 1
+    if Arraylist[i][2] == 0:
+      Arraylist [i][3] = "out of stock"
+       
+print("Array: " + str(Arraylist))
