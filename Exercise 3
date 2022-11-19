@@ -1,0 +1,18 @@
+Array = [ ]
+print("\n",Array)
+
+Array = ["number id","name","count"]
+print("\n","Add number id , name , count in Array: " +str(Array))
+
+Array_lenght = len(Array)
+print("\n","lenght for Array: " + str(Array_lenght))
+
+Location_name = Array.index("name")
+print("\n","Location_name : " + str(Location_name))
+
+Array.append("status")
+print("\n","Add status : " + str(Array))
+
+
+Array = [['namber id','name','count','status'],[ ]]
+print("\n",Array)
