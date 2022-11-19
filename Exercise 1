@@ -1,0 +1,13 @@
+Array = []
+
+Array = [5,7,9,11,13]
+sum = 0
+print("Array = " + str(Array))
+print("\n", Array)
+
+Array_length = len(Array)
+print("\n",Array_length)
+
+for i in range(0, len(Array)):
+    sum = sum + Array[i];
+print("\n","Sum of all the elements of Array:" + str (sum));
