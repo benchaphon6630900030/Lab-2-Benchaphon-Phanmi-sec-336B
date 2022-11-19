@@ -1,0 +1,14 @@
+Array_lenght = len(Array)
+print("\n","lenght for Array = ",Array_lenght)
+
+Array.append([ ])
+Array[1].append(["rubber", 0 ,"out for stock"])
+print("\n",Array)
+
+Array.append([ ])
+Array[2].append(["ruler", 5 ,"in for stock"])
+print("\n",Array)
+
+Array.append([ ])
+Array[3].append(["pencil", 1 ,"in for stock"])
+print("\n",Array)
